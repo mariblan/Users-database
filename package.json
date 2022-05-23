@@ -1,0 +1,23 @@
+{
+  "name": "workshop-router-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-rate-limit": "^6.4.0",
+    "helmet": "^5.1.0",
+    "nodemon": "^2.0.16",
+    "sqlite": "^4.1.1",
+    "sqlite3": "^5.0.8"
+  }
+}

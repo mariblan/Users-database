@@ -1,0 +1,71 @@
+
+body{
+    background-color: #cce6ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+   }
+   header{
+    text-align: center;
+    height: 100px;
+    padding-top: 1px;
+    background-color: #3399ff;
+    color: #FFFFFF;
+    font-size: x-large;
+   }
+   h3{
+    margin-top: 2px;
+    text-align: center;
+    background-color: #80bfff;
+   }
+   form{
+    width: 45%;
+    display: inline-block;
+    margin: 20px;
+   }
+.add-new-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.add-user {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.look-for {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.update {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.delete {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.label {
+    margin-right: 0.8vh;
+}
+.name {
+    margin-left: 1vh;
+}
+.label-id {
+    margin-right: 2.7vh;
+}
+.id {
+    margin-left: 4.5vh;
+    
+}
+   footer{
+    margin-top: 3%;
+    text-align: center;
+   }

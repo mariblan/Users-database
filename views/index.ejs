@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link rel="stylesheet" href="../public/css/style.css" type="text/css">
+        </head>
+        <body>
+            <h1>Hello there</h1>
+            <form action="/add" method="POST">
+                <h3>Add an user</h3>
+                <div class="add-new-user">
+                    <div class="add-user">
+                        <div class="label">
+                            <label>First name:</label>
+                        </div>
+                        <div class="name">
+                            <input type="text" name="first_name" required>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="add-user">
+                        <div class="label">
+                            <label>Last name:</label>
+                        </div>
+                        <div class="name">
+                            <input type="text" name="last_name" required>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="add-user">
+                        <input type="submit" value="submit" />
+                    </div>
+                </div>
+            </form>
+            <br>
+            <form action="/view" method="POST">
+                <h3>Look for user</h3>
+                <div class="look-for-user">
+                    <div class="look-for">
+                        <div class="label">
+                            <label>Users Id:</label>
+                        </div>
+                        <div class="id">
+                            <input type="number" name="users_id" required>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="look-for">
+                        <input type="submit" value="submit" />
+                    </div>
+                </div>
+            </form>
+            <br>
+            <form action="/update" method="POST">
+                <h3>Update user</h3>
+                <div class="update-user">
+                    <div class="update">
+                        <div class="label-id">
+                            <label>Users Id:</label>
+                        </div>
+                        <div class="id">
+                            <input type="number" name="users_id" required>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="update">
+                        <div class="label">
+                            <label>New first name:</label>
+                        </div>
+                        <div class="name">
+                            <input type="text" name="first_name" required>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="last-name">
+                        <div class="update">
+                            <div class="label">
+                                <label>New last name:</label>
+                            </div>
+                            <div class="name">
+                                <input type="text" name="last_name" required>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="update">
+                            <input type="submit" value="submit" />
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <br>
+            <form action="/delete" method="POST">
+                <h3>Delete user</h3>
+                <div class="delete-user">
+                    <div class="delete">
+                        <div class="label-id">
+                            <label>User ID:</label>
+                        </div>
+                        <div class="id">
+                            <input type="number" name="users_id" required>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="delete">
+                       <input type="submit" value="submit" /> 
+                    </div>
+                </div>
+            </form>
+        </body>
+    </html>
